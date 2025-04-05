@@ -24,7 +24,7 @@ docker logs <conteneur_name>
 
 La doc de outline nous utilise https-portal, on en aura pas besoin ici car on a nginx.
 
-Admettons que notre domaine soit https://wikids.sandbox.e59.fr
+Admettons que notre domaine soit https://wiki.sandbox.e59.fr
 
 ## Requirement
 
@@ -69,7 +69,7 @@ Désactiver la connection en SSL pour postgresql : `PGSSLMODE=disable`
 
 Le champ URL correspond au nom de domaine de Outline :
 
-`URL=https://wikids.sandbox.e59.fr`
+`URL=https://wiki.sandbox.e59.fr`
 
 `#PORT=3000`
 
