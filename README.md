@@ -22,8 +22,6 @@ docker logs <conteneur_name>
 
 ## docker.env en e59 
 
-```
-
 La doc de outline nous utilise https-portal, on en aura pas besoin ici car on a nginx.
 
 Admettons que notre domaine soit https://wikids.sandbox.e59.fr
