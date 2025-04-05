@@ -79,13 +79,19 @@ Nous allons utiliser Entra ID de Microsoft pour nous connecter, pour cela il fau
 
 Pour obtenir ces valeur il faut se rendre sur __<https://entra.microsoft.com>__ : 
 
- ![](attachments/69f09631-057e-47bc-8d05-ea6df0e4f6da.png " =1915x985")En bleu c'est le `AZURE_CLIENT_ID=`\n ![](attachments/b1326bef-265a-4ccc-90e2-5c47630cdcb5.png " =1583x644")
+![](attachments/69f09631-057e-47bc-8d05-ea6df0e4f6da.png " =1915x985")
+
+En bleu c'est le `AZURE_CLIENT_ID=`
+
+![](attachments/b1326bef-265a-4ccc-90e2-5c47630cdcb5.png " =1583x644")
 
 En bleu c'est le `AZURE_CLIENT_SECRET=`
 
- ![](attachments/341c964c-c633-44c2-8d99-e49538b30249.png " =1325x726")
+![](attachments/341c964c-c633-44c2-8d99-e49538b30249.png " =1325x726")
 
-En bleu c'est le AZURE_RESOURCE_APP_ID=\n ![](attachments/ce7db5b1-2eab-41b7-a9e3-4fb8ca7bea3c.png " =1544x585")
+En bleu c'est le `AZURE_RESOURCE_APP_ID=`
+
+![](attachments/ce7db5b1-2eab-41b7-a9e3-4fb8ca7bea3c.png " =1544x585")
 
 Il ajouter au domaine /auth/azure.callback
 
