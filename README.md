@@ -24,7 +24,7 @@ docker logs <conteneur_name>
 
 La doc de outline nous utilise https-portal, on en aura pas besoin ici car on a nginx.
 
-Admettons que notre domaine soit https://wiki.sandbox.e59.fr
+Admettons que notre domaine soit https://wikids.sandbox.e59.fr
 
 ## Requirement
 
@@ -69,7 +69,7 @@ Désactiver la connection en SSL pour postgresql : `PGSSLMODE=disable`
 
 Le champ URL correspond au nom de domaine de Outline :
 
-`URL=https://wiki.sandbox.e59.fr`
+`URL=https://wikids.sandbox.e59.fr`
 
 `#PORT=3000`
 
@@ -79,19 +79,19 @@ Nous allons utiliser Entra ID de Microsoft pour nous connecter, pour cela il fau
 
 Pour obtenir ces valeur il faut se rendre sur __<https://entra.microsoft.com>__ : 
 
-![](attachments/69f09631-057e-47bc-8d05-ea6df0e4f6da.png " =1915x985")
+![img1](attachments/69f09631-057e-47bc-8d05-ea6df0e4f6da.png " =1915x985")
 
 En bleu c'est le `AZURE_CLIENT_ID=`
 
-![](attachments/b1326bef-265a-4ccc-90e2-5c47630cdcb5.png " =1583x644")
+![img2](attachments/b1326bef-265a-4ccc-90e2-5c47630cdcb5.png " =1583x644")
 
 En bleu c'est le `AZURE_CLIENT_SECRET=`
 
-![](attachments/341c964c-c633-44c2-8d99-e49538b30249.png " =1325x726")
+![img3](attachments/341c964c-c633-44c2-8d99-e49538b30249.png " =1325x726")
 
 En bleu c'est le `AZURE_RESOURCE_APP_ID=`
 
-![](attachments/ce7db5b1-2eab-41b7-a9e3-4fb8ca7bea3c.png " =1544x585")
+![img4](attachments/ce7db5b1-2eab-41b7-a9e3-4fb8ca7bea3c.png " =1544x585")
 
 Il ajouter au domaine /auth/azure.callback
 
